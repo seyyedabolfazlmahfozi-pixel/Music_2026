@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Dark Music</title>
 
     <!-- Font -->
@@ -11,43 +13,42 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="background"></div>
+    <div class="background"></div>
 
-<div class="card">
+    <div class="card">
 
-    <!-- Photo -->
-    <img src="assets/photo.jpg" class="profile" alt="Profile">
-    	<audio controls>
-		<source src = "assets/music.mp3"
-		type = "audio/mpeg">
-		<audio>
+        <!-- Photo -->
+        <img src="assets/photo.jpg" class="profile" alt="Profile">
 
-    <!-- Title -->
-    <h1 class="title">
-        WELCOME
-    </h1>
+        <!-- Title -->
+        <h1 class="title">
+            WELCOME
+        </h1>
 
-    <!-- Subtitle -->
-    <p class="subtitle">
-        ENJOY THE MUSIC
-    </p>
+        <!-- Subtitle -->
+        <p class="subtitle">
+            ENJOY THE MUSIC
+        </p>
 
-    <!-- Button -->
-    <button id="playBtn">
-        ▶ PLAY MUSIC
-    </button>
+        <!-- Play Button -->
+        <button id="playBtn">
+            ▶ PLAY MUSIC
+        </button>
 
-</div>
+    </div>
 
-			<!-- Music -->
-<audio id="music" autoplay loop>
-    <source src="assets/music.mp3" type="audio/mpeg">
-</audio>
+    <!-- Music -->
+    <audio id="music" loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 
-<!-- JS -->
-<script src="script.js"></script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 
 </body>
+
 </html>
